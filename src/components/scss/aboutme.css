@@ -1,0 +1,17 @@
+body{
+    background-image: url(../../images/5.jpg);
+}
+p{
+    font-size: large;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: floralwhite;
+}
+
+h1{
+    color: floralwhite;  
+}
+
+strong{
+    color: #c01acf;
+}

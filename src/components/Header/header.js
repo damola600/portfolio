@@ -40,7 +40,7 @@ const Header = () => {
 
                 <SidebarContent>
                     <Menu iconShape="square">
-                        <MenuItem active={true} data-bs-target="#websites" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="websites">Websites</MenuItem>
+                        <MenuItem id="websiteMenu" active={true} data-bs-target="#websites" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="websites">Websites</MenuItem>
                         <MenuItem active={true} data-bs-target="#mobileApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="mobileApps">Mobile Apps</MenuItem>
                         <MenuItem active={true} data-bs-target="#algorithms" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="algorithms">Algorithms</MenuItem>
                         <MenuItem active={true} data-bs-target="#ds" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="ds">Distributed Systems</MenuItem>                        
@@ -52,7 +52,7 @@ const Header = () => {
         </div>
 
 
-         <div id="websites" className="collapse">
+         <div id="websites" className="collapse" data-bs-parent="#websiteMenu">
                 <h3>Websites</h3>
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">

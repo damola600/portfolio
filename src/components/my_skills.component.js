@@ -63,6 +63,7 @@ export default class MySkills extends Component{
                             <li>Azure Portal</li>
                             <li>AWS</li>
                             <li>Heroku</li>
+                            <li>Github</li>
                         </ul>
                     </div>
                 </div>

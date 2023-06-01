@@ -7,13 +7,14 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_42870ey', 'template_dv7zq88', form.current, 'user_cDIN25o7SwXk9eHP6H7wz')
+    emailjs.sendForm('service_mgayqvh', 'template_dv7zq88', form.current, 'user_cDIN25o7SwXk9eHP6H7wz')
       .then((result) => {
           console.log(result.text);
           alert("message successfully sent");
       }, (error) => {
           console.log(error.text);
-      });
+          alert("message could not be  sent");
+      })
   };
 
   

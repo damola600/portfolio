@@ -11,9 +11,25 @@ export default class WorkExperience extends Component{
                 <h1>Work Experiences</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p><strong>Software Developer</strong><br/><strong>Tata Consultancy Service</strong><br/><strong>January 2022-Now</strong></p>
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Assisted customers with queries they have about products we had in the store</li>
+                                <li>Helped with inventory and restocking ths shelves to provide more products to customers</li>
+                                <li>Helped with keeping the store organized by folding clothes and arranging them in their respective shelves to help customers easily locate them</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <p><strong>Software Developer</strong><br/><strong>Cloud Constable Inc</strong><br/><strong>June 2021 - Now</strong></p>
+                            <p><strong>Software Developer</strong><br/><strong>Cloud Constable Inc</strong><br/><strong>June 2021 - January 2022</strong></p>
                         </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -28,39 +44,7 @@ export default class WorkExperience extends Component{
                         </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <p><strong>Cashier/Customer Experience</strong><br/><strong>Walmart Corp</strong><br/><strong>August 2019-now</strong></p>
-                        </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Assisted customers in checking out by scanning and neatly bagging their groceries</li>
-                                <li>Zoned products and arranged them in their respective shelves</li>
-                                <li>Assisted customers in the self checkout by helping them with enquiries on how to use the checkout machine</li>
-                                <li>Helped with training new cashiers on how to provide good customer service</li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <p><strong>Sales Associate</strong><br/><strong>American Eagle Outfitters</strong><br/><strong>October 2018-January 2019</strong></p>
-                        </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Assisted customers with queries they have about products we had in the store</li>
-                                <li>Helped with inventory and restocking ths shelves to provide more products to customers</li>
-                                <li>Helped with keeping the store organized by folding clothes and arranging them in their respective shelves to help customers easily locate them</li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         );

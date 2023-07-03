@@ -19,9 +19,13 @@ export default class WorkExperience extends Component{
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <ul>
-                                <li>Assisted customers with queries they have about products we had in the store</li>
-                                <li>Helped with inventory and restocking ths shelves to provide more products to customers</li>
-                                <li>Helped with keeping the store organized by folding clothes and arranging them in their respective shelves to help customers easily locate them</li>
+                                <li>Worked in a team to create a website for a bank system</li>
+                                <li>Designed the backend and front-end using Java servlets and JSP</li>
+                                <li>Assisted in updating the database using MySQL and hosted the website on Apache</li>
+                                <li>Demonstrated the functionality of the website in front of the client and was able to receive positive feedback.</li>
+                                <li>Created backend APIs using NodeJs and AWS.</li>
+                                <li>Created Lambdas, SQS stack, SSM stack, API stack and Function Stack.</li>
+                                
                             </ul>
                         </div>
                         </div>
@@ -45,7 +49,7 @@ export default class WorkExperience extends Component{
                         </div>
                     </div>
                     
-                </div>
+                </div> 
             </div>
         );
     }

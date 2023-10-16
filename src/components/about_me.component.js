@@ -20,7 +20,7 @@ export default class AboutMe extends Component{
                         {text}
                     </div>
                 </div>
-                <p>To learn more about me lets setup a live interview. <Link to="/contactme"><strong>Email</strong></Link> or Call me at (289)808-0532.</p>
+                <p>To learn more about me or setup a live interview. <Link to="/contactme"><strong>Email</strong></Link> or Call me at (289)808-0532.</p>
             </div>
         );
     }

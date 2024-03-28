@@ -53,8 +53,6 @@ export default class MySkills extends Component{
                             <li>Microsoft Professional</li>
                             <li>Visual Paradigm</li>
                             <li>IBM Rational Doors</li>
-                            <li>Xilinx</li>
-                            <li>FPGA's</li>
                             <li>MATLAB</li>
                             <li>Windows Powershell</li>
                             <li>MySQL workbench</li>
@@ -62,8 +60,11 @@ export default class MySkills extends Component{
                             <li>Azure Devops</li>
                             <li>Azure Portal</li>
                             <li>AWS</li>
-                            <li>Heroku</li>
+                            <li>Bitbucket</li>
+                            <li>Confluence</li>
                             <li>Github</li>
+                            <li>Jira</li>
+                            <li>GCP</li>
                         </ul>
                     </div>
                 </div>

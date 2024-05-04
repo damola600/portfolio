@@ -1,0 +1,16 @@
+.nav-link {
+    color: orange;
+  }
+
+  ul {
+    color: lightgray
+  }
+  
+  .accordion-button {
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: large;
+  }
+  .accordion-item {
+    background-color: black;
+  }

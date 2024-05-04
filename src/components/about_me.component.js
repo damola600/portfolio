@@ -5,12 +5,15 @@ import './scss/aboutme.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "jquery/dist/jquery"
 import "bootstrap/dist/js/bootstrap";
-import { text } from './textfiles/aboutme.json';
+import  aboutme from './textfiles/aboutme.json';
 import cloud_eng_cert from "../images/google_cloud_cert.jpg";
 
 export default class AboutMe extends Component{
+    
     render(){
+        const { text } = aboutme
         return(
+            
             <div className="container">
             {/* <Helmet>
                 <style>{'body { background-image: url(../images/1.jpg); }'}</style>

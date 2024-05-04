@@ -1,3 +1,8 @@
 {
-    "software_skills":[]
+    "software_skills":["Bitbucket", "MATLAB", "Microsoft Professional", "Visual Paradigm", "Swagger", "Jira", "MySQL Workbench", "Confluence", "Servicenow", "Github", "Android Studio", "Unity"],
+    "cloud_computing_skills":["GCP", "Azure", "AWS"],
+    "programming_skills":["C#", "Python", "Java", "JavaScript", "HTML5", "ReactJS", "NodeJs", "Angular", "JSON", "XML", "PHP", " SQL", "Bash"],
+    "databases_used":["MySQL", "Firebase", "MongoDB"],
+    "os_used":["Android", "Linux/Ubuntu", "Windows", "Raspbian"],
+    "other_skills":["Microsoft Word", "Excel", "Powerpoint", "Good oral, verbal, pictorial and written communication", "Customer Service Experience", "Fast and active learner", "Strong problem solving and critical thinking"]
 }

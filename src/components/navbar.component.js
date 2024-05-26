@@ -23,7 +23,7 @@ export default class Navbar extends Component{
                                 <Link to="/myskills" className="nav-link">My Skills</Link>
                             </li>
                             <li className="navbar-item">
-                                <Link to="projectexperience" className="nav-link">Project Experiences</Link>
+                                <Link to="projectexperience" className="nav-link">Personal Projects</Link>
                             </li>
                         </ul>
                     </div>

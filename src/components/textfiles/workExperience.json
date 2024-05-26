@@ -1,0 +1,37 @@
+[
+    {
+        "id": "collapseOne",
+        "headingId": "headingOne",
+        "isExpanded": true,
+        "title": {
+            "position": "Software Developer",
+            "company": "Cloud Constable Inc",
+            "dates": "June 2021 - January 2022"
+        },
+        "tasks": [
+            "Working on both frontend and backend developing",
+            "Working with Unity software to create the front end of the application",
+            "Using Microsoft azure for code deployment and as cloud storage",
+            "Using Mongodb database for cloud storage",
+            "Working in an agile environment with daily scrum meetings"
+        ]
+    },
+    {
+        "id": "collapseThree",
+        "headingId": "headingThree",
+        "isExpanded": false,
+        "title": {
+            "position": "Software Developer",
+            "company": "Tata Consultancy Service",
+            "dates": "January 2022 - May 2024"
+        },
+        "tasks": [
+            "Worked in a team to create a website for a bank system",
+            "Designed the backend and front-end using Java servlets and JSP",
+            "Assisted in updating the database using MySQL and hosted the website on Apache",
+            "Demonstrated the functionality of the website in front of the client and was able to receive positive feedback.",
+            "Created backend APIs using NodeJs and AWS.",
+            "Created Lambdas, SQS stack, SSM stack, API stack and Function Stack."
+        ]
+    }
+]

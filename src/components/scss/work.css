@@ -1,0 +1,23 @@
+ul {
+    color: lightgray;
+  }
+  
+  .accordion-button {
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+    background-color: darkgray;
+  }
+  
+  .accordion-item {
+    background-color: black;
+  }
+  
+  li{
+    color: #a6d9d9;
+  }
+
+  .accordion-button.collapsed{
+    background-color: rgb(184, 192, 215);
+  }
+  

@@ -1,34 +1,22 @@
-.nav-link{
-    color: greenyellow;
-  }
-
-  ul {
-    color: lightgray
-  }
-  
-  .accordion-button {
-    color: green;
-    font-weight: bolder;
-    font-size: large;
-    background-color:darkgray;
-  }
-  .accordion-item {
-    background-color: black;
-  }
-
-
-.nav-link:active {
-  background-color: brown;
-  color: green;
+ul {
+  color: lightgray;
 }
 
-.nav-link:hover {
-  color: orangered
+.accordion-button {
+  color: blue;
+  font-weight: bolder;
+  font-size: large;
+  background-color: darkgray;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-  color: greenyellow;
-  font-weight: bold;
+.accordion-item {
+  background-color: black;
 }
 
+li{
+  color: #a6d9d9;
+}
 
+.accordion-button.collapsed{
+  background-color: rgb(184, 192, 215);
+}

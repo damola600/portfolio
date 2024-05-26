@@ -1,116 +1,70 @@
-#container{
-  width:auto;
+#projectSidebar {
+  height: 100vh;
+  position: fixed;
+  color: white;
 }
-#header {
-    position: absolute;
-    width: 210px;
-    left: 0px;
-  }
-  #header .pro-sidebar {
-    height: 100vh;
-    width:200px;
-    left: 0px;
-  }
-  #header .closemenu {
-    color: #fff;
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    line-height: 20px;
-    border-radius: 50%;
-    font-weight: bold;
-    font-size: 22px;
-    top: 55px;
-    cursor: pointer;
-  }
-  #header .pro-sidebar {
-    color: #ffffff;
-    width: 100%;
-    min-width: 20%;
-  }
-  #header .pro-sidebar.collapsed {
-    width: 80px;
-    min-width: 20px;
-    color:#fff;
-  }
-  #header .pro-sidebar-inner {
-    background-color: black;
-    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout {
-    overflow-y: hidden;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
-    font-size: 18px;
-    padding: 0 15px;
-    color: #fff;
-    font-weight: bold;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout ul {
-    padding: 0 5px;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
-    color: #000;
-    margin: 10px 0px;
-    font-weight: bold;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
-    background-color: #fbf4cd;
-    color: #FFF;
-    border-radius: 1px;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
-    color: #fff;
-  }
-  #header .pro-sidebar-inner .pro-sidebar-layout .active {
-    background-image: linear-gradient(0deg, #fece00 0%, #ffe172 100%);
-  }
-  #header .logo {
-    padding: 10px;
-  }
-  
-  @media only screen and (max-width: 1100px) {
-    html {
-      overflow:scroll;
-    }
 
-    #websites {
-      position: absolute;
-      left: 250px;
-      width: 70%;
-    }
+.logoText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e2f;
+  color: white;
+}
 
-    #websites .pro-sidebar{
-      width: fit-content;
-      right: inherit;
-    }
+.closemenu {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+}
 
-    #mobileApps{
-      position: absolute;
-      left: 250px;
-      width: 50%;
-    }
+.menu-item {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+}
 
-    #algorithms{
-      position: absolute;
-      left: 250px;
-      width: 50%;
-    }
+.appear {
+  display: block;
+}
 
-    #ds{
-      position: absolute;
-      left: 250px;
-      width: 50%;
-    }
+.hidden {
+  display: none;
+}
 
-    h3{
-      color:floralwhite;
-    }
+.collapse {
+  transition: all 0.3s ease-in-out;
+}
 
-   
+.coming-soon {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
 
 
+.logoText p,
+.project-details h3 {
+  color: cyan;
+}
+.project-details a{
+  color: gray;
+}
+.project-item ul li {
+    color: greenyellow;
+}
 
+.container .collapse.show {
+  color: cyan;
+}
 
-
-  }
+#projectSidebar .pro-sidebar-inner {
+  background: #000; /* To ensure the sidebar background is dark */
+}

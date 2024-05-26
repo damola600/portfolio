@@ -4,19 +4,15 @@ import "jquery/dist/jquery"
 import "bootstrap/dist/js/bootstrap";
 import "./scss/skills.css";
 import skills  from "./textfiles/skills.json"
-import Helmet from 'react-helmet';
 export default class MySkills extends Component{
     render(){
         const { software_skills, programming_skills, databases_used, cloud_computing_skills, os_used, other_skills } = skills
         return(
             <div class='container-xxl'>
-                <Helmet>
-                    <style>{'body { background-color: dark-violet; }; .nav-link {color: aqua}'}</style>
-                </Helmet>
                 <div class='row'>
                     <div class='col-4'>
                         <nav id='my_skills_nav' class="h-100 flex-column align-items-stretch pe-4 border-end">
-                            <a class="navbar-brand" href="#" style={{ color: 'gold' }}>SKILLS</a>
+                            <a class="navbar-brand" href="#" style={{ color: 'gold' , fontWeight: 'bolder'}}>SKILLS</a>
                             <nav class="nav nav-pills flex-column">
                                 <a class="nav-link" href='#programming-skills' >Programming Languages</a>
                                 <a class="nav-link" href='#software-skills'>Software</a>

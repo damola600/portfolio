@@ -1,5 +1,5 @@
-.nav-link {
-    color: orange;
+.nav-link{
+    color: greenyellow;
   }
 
   ul {
@@ -7,10 +7,28 @@
   }
   
   .accordion-button {
-    color: goldenrod;
+    color: green;
     font-weight: bolder;
     font-size: large;
+    background-color:darkgray;
   }
   .accordion-item {
     background-color: black;
   }
+
+
+.nav-link:active {
+  background-color: brown;
+  color: green;
+}
+
+.nav-link:hover {
+  color: orangered
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  color: greenyellow;
+  font-weight: bold;
+}
+
+

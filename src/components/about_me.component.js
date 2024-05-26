@@ -15,9 +15,6 @@ export default class AboutMe extends Component{
         return(
             
             <div className="container">
-            {/* <Helmet>
-                <style>{'body { background-image: url(../images/1.jpg); }'}</style>
-            </Helmet> */}
                 <h1>Rukayat Adedamola Jimoh</h1>
                 <div className="card">
                     <div className="card-body">
@@ -37,8 +34,8 @@ export default class AboutMe extends Component{
                 <br/><br/>
                 <div className='card' style={{width: "18rem"}}>
                     <img src={cloud_eng_cert} className='card-img-top' alt='Cloud Engineer Certificate'/>
-                    <div class="card-body">
-                        <p class="card-text" style={{ color: 'black'}}>Google Associate Cloud Engineer Certificate</p>
+                    <div className="card-body">
+                        <p className="card-text" style={{ color: 'black'}}>Google Associate Cloud Engineer Certificate</p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,64 @@
+{
+    "python": [
+        {
+            "Pong Game https://github.com/damola600/pong_game": [
+                "Created a 2 player game using the turtle module in Python.",
+                "Used OOP concepts such as inheritance, classes, and polymorphism."
+            ]
+        },
+        {
+            "Spotify Playlist https://github.com/damola600/100_song_titles": [
+                "Used BeautifulSoup library to scrape the Billboard website to get the top 100 songs.",
+                "Used the Spotify library to create a playlist and add the songs to the playlist.",
+                "Used a dotenv file to keep sensitive information like the client_id and the client_secret."
+            ]
+        },
+        {
+            "Amazon Price Tracker https://github.com/damola600/Amazon_Prize_Tracker": [
+                "The code checks if the price of SodaStream on Amazon has reached a certain price and sends an email notification",
+                "Used BeautifulSoup library to scrape the Amazon Website to get the Price of a SodaStream.",
+                "Used the SMTP library to send an email of the price alert.",
+                "Used a dotenv file to keep sensitive information like the email and the password."
+            ]
+        }
+    ],
+    "csharp": [
+        {
+            "Laboratory Management System https://github.com/damola600/KazlatLab-windows-app": [
+                "Developed a Desktop Application for a laboratory management system.",
+                "Used NodeJs to create the backend for the application",
+                "Created a user-friendly UI with WPF.",
+                "Used Firebase to store data for the Application."
+            ]
+        }
+    ],
+    "android": [
+        {
+            "Cook At Home https://github.com/damola600/cook_at_home": [
+                "Cook At Home is an app built to provide simple recipes that can be made at home",
+                "Java was used in building the app and SQL was used for the database",
+                "Implemented a clean and intuitive user interface using Material Design."
+            ]
+        }
+    ],
+    "react": [
+        {
+            "Laboratory Management Website https://github.com/damola600/Kazlat_Lab_React": [
+                "Developed a full-featured laboratory management website using React.",
+                "Implemented user authentication with Firebase.",
+                "Designed a responsive UI using Bootstrap and custom CSS."
+            ]
+        }
+    ],
+    "node": [
+        {
+            "Laboratory Management Website https://github.com/damola600/kazlat_lab_nodejs": [
+                "Created API using NodeJs.",
+                "Used Firebase to store customer, employee and sample data.",
+                "Created Web Server using HTTP module.",
+                "Used JSON to handle incoming and outgoing data."
+            ]
+        }
+    ],
+    "java": []
+}

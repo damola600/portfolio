@@ -33,5 +33,23 @@
             "Created backend APIs using NodeJs and AWS.",
             "Created Lambdas, SQS stack, SSM stack, API stack and Function Stack."
         ]
+    },
+    {
+        "id": "collapseFour",
+        "headingId": "headingFour",
+        "isExpanded": false,
+        "title": {
+            "position": "Freelance Developer",
+            "company": "GroupBuyHive",
+            "dates": "June 2024 - Present"
+        },
+        "tasks": [
+            "Designed and developed a responsive Shopify e-commerce website, adhering to detailed Figma designs provided by the UI/UX team, ensuring a seamless user experience across all devices.",
+            "Created a custom Shopify app using JavaScript and AWS Lambda, improving website functionality and integrating with third-party services.",
+            "Edited and optimized Shopify Liquid templates, enhancing the website’s performance, speed, and accessibility, resulting in a more intuitive shopping experience for users with disabilities.",
+            "Collaborated with the design and marketing teams to implement brand guidelines and improve visual appeal, leading to a 15% increase in user engagement post-launch.",
+            "Troubleshot and resolved technical issues, providing ongoing code maintenance and updates support, ensuring the website remains up-to-date with the latest e-commerce trends."
+
+        ]
     }
 ]

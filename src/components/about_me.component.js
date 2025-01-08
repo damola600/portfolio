@@ -29,8 +29,13 @@ export default class AboutMe extends Component{
                             <h3 style={ { fontWeight: 'bold', color: 'black' }}>ONTARIO TECHNOLOGY UNIVERSITY                     2017-2021</h3>
                             <h5>Bachelor's of Engineering - Software Engineering</h5>
                         </div>
+                        <div className='card-text'>
+                            <h3 style={ { fontWeight: 'bold', color: 'black' }}>University of Waterloo                     2024-present</h3>
+                            <h5>Masters of Engineering - Electrical and Computer Engineering</h5>
+                        </div>
                     </div>
                 </div>
+                
                 <br/><br/>
                 <div className='card' style={{width: "18rem"}}>
                     <img src={cloud_eng_cert} className='card-img-top' alt='Cloud Engineer Certificate'/>

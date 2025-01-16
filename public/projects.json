@@ -47,6 +47,11 @@
                 "Developed a full-featured laboratory management website using React.",
                 "Implemented user authentication with Firebase.",
                 "Designed a responsive UI using Bootstrap and custom CSS."
+            ],
+            "Kazlat Public Analyst Laboratory Website https://kazlatpublicanalysts.com/":[
+                "Developed a website using Tailwind CSS, React, Next.js",
+                "Hosted the website using firebase",
+                "Created a fully functional Contact Us page to allow communications from the website."
             ]
         }
     ],

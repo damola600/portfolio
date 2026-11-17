@@ -37,6 +37,8 @@ jobs:
         run: npm ci
 
       - name: Build React portfolio
+        env:
+          CI: false
         run: npm run build
 
       - name: Configure GitHub Pages

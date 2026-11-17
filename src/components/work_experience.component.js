@@ -4,7 +4,7 @@ import workExperience from './textfiles/workExperience.json';
 
 class AccordionItem extends Component {
     render() {
-        const { id, headingId, targetId, isExpanded, title, children } = this.props;
+        const { headingId, targetId, isExpanded, title, children } = this.props;
         return (
             <div className="accordion-item">
                 <h2 className="accordion-header" id={headingId}>
